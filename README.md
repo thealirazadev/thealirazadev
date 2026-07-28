@@ -28,14 +28,26 @@ concurrency, correct timezone handling, tested code, and CI/CD.
 
 ## Featured Projects
 
-| Project | Stack | What it is |
-| --- | --- | --- |
-| **[hook-relay](https://github.com/thealirazadev/hook-relay)** | Laravel | Inbound webhook gateway with per-provider signature verification, at least once delivery, a dead letter queue, and replay. |
-| **[ticket-triage](https://github.com/thealirazadev/ticket-triage)** | Python, FastAPI | Triages support tickets with an LLM, with rule based routing, a labeled evaluation harness, and CI accuracy gating. |
-| **[bookline](https://github.com/thealirazadev/bookline)** | Next.js, TypeScript | Appointment booking with timezone and DST correct slots and database level double booking prevention. |
-| **[pulse-analytics](https://github.com/thealirazadev/pulse-analytics)** | Next.js, TypeScript | Privacy first, cookieless web analytics with rollup aggregation, goals, and a dashboard. |
-| **[laravel-uptime](https://github.com/thealirazadev/laravel-uptime)** | Laravel | Uptime and SSL monitor with queued checks, flap suppression, public status pages, and alerting. |
-| **[evalkit](https://github.com/thealirazadev/evalkit)** | Python | CLI for prompt regression testing with deterministic assertions and LLM as judge scoring. |
+**[hook-relay](https://github.com/thealirazadev/hook-relay)** &nbsp;&#183;&nbsp; *Laravel*  
+Inbound webhook gateway with per-provider signature verification, at least once delivery, a dead
+letter queue, and replay.
+
+**[ticket-triage](https://github.com/thealirazadev/ticket-triage)** &nbsp;&#183;&nbsp; *Python, FastAPI*  
+Triages support tickets with an LLM, with rule based routing, a labeled evaluation harness, and CI
+accuracy gating.
+
+**[bookline](https://github.com/thealirazadev/bookline)** &nbsp;&#183;&nbsp; *Next.js, TypeScript*  
+Appointment booking with timezone and DST correct slots, and database level double booking
+prevention.
+
+**[pulse-analytics](https://github.com/thealirazadev/pulse-analytics)** &nbsp;&#183;&nbsp; *Next.js, TypeScript*  
+Privacy first, cookieless web analytics with rollup aggregation, goals, and a dashboard.
+
+**[laravel-uptime](https://github.com/thealirazadev/laravel-uptime)** &nbsp;&#183;&nbsp; *Laravel*  
+Uptime and SSL monitor with queued checks, flap suppression, public status pages, and alerting.
+
+**[evalkit](https://github.com/thealirazadev/evalkit)** &nbsp;&#183;&nbsp; *Python*  
+CLI for prompt regression testing with deterministic assertions and LLM as judge scoring.
 
 Every one of these builds green in CI, ships with real tests, and documents its design decisions in
 the README.
