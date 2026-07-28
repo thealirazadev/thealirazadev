@@ -16,7 +16,8 @@ concurrency, correct timezone handling, tested code, and CI/CD.
 
 - Currently building Python and FastAPI services with LLM integrations (OpenAI, Claude, Gemini), including RAG pipelines and prompt evaluation.
 - Deep background in WordPress, WooCommerce, Shopify, and Laravel for online stores.
-- Author and maintainer of 20+ open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
+- Author and maintainer of open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
+- Every project ships with tests, CI, and written design decisions.
 - Based in Lahore, Pakistan and open to remote work.
 
 ## Tech Stack
