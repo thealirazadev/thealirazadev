@@ -1,6 +1,13 @@
 <img src="banner.png" alt="Ali Raza - Senior AI and Full Stack Developer" width="100%" />
 
-<p align="center"><a href="https://ali-raza-ten.vercel.app"><img src="social-portfolio.png" height="34" alt="Portfolio" /></a> <a href="https://linkedin.com/in/ali-razabhatti"><img src="social-linkedin.png" height="34" alt="LinkedIn" /></a> <a href="mailto:thealirazadev@gmail.com"><img src="social-email.png" height="34" alt="Email" /></a> <a href="https://github.com/thealirazadev?tab=repositories"><img src="social-github.png" height="34" alt="GitHub repositories" /></a></p>
+<p align="center">
+  <b>
+  <a href="https://ali-raza-ten.vercel.app">PORTFOLIO</a> &nbsp;&#8226;&nbsp;
+  <a href="https://linkedin.com/in/ali-razabhatti">LINKEDIN</a> &nbsp;&#8226;&nbsp;
+  <a href="mailto:thealirazadev@gmail.com">EMAIL</a> &nbsp;&#8226;&nbsp;
+  <a href="https://github.com/thealirazadev?tab=repositories">REPOSITORIES</a>
+  </b>
+</p>
 
 ## About
 
