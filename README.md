@@ -1,9 +1,9 @@
-<img src="banner.png" alt="Ali Raza - Senior AI and Full Stack Developer" width="100%" />
+<img src="banner.png" alt="Ali Raza - Senior AI Engineer" width="100%" />
 
 <p align="center">
   <b>
   <a href="https://ali-raza-ten.vercel.app">PORTFOLIO</a> &nbsp;&#8226;&nbsp;
-  <a href="https://linkedin.com/in/ali-razabhatti">LINKEDIN</a> &nbsp;&#8226;&nbsp;
+  <a href="https://linkedin.com/in/thealirazadev">LINKEDIN</a> &nbsp;&#8226;&nbsp;
   <a href="mailto:thealirazadev@gmail.com">EMAIL</a> &nbsp;&#8226;&nbsp;
   <a href="https://github.com/thealirazadev?tab=repositories">REPOSITORIES</a>
   </b>
@@ -11,13 +11,11 @@
 
 ## About
 
-I am a Senior AI and Full Stack Developer with 6+ years building e-commerce platforms, custom CMS
-solutions, and AI powered automation for clients across the US, UK, and EU. I build software end to
-end and care about the details that matter in production: idempotent APIs, queue based delivery, safe
-concurrency, correct timezone handling, tested code, and CI/CD.
+I am a Senior AI Engineer with 7+ years in production software. I build LLM systems that run in production: realtime voice agents on LiveKit and Twilio SIP, multi-agent pipelines, and RAG assistants with cited answers. I treat the model as one part of a reliable system: schema-validated tool calls, deterministic guardrails, provider failover, cost budgets, and eval suites in CI.
 
-- Currently building Python and FastAPI services with LLM integrations (OpenAI, Claude, Gemini), including RAG pipelines and prompt evaluation.
-- Deep background in WordPress, WooCommerce, Shopify, and Laravel for online stores.
+- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (failover, budgets, PII redaction, semantic cache), [evalkit](https://github.com/thealirazadev/evalkit) (prompt regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations).
+- Stack: Python, FastAPI, LangGraph, LangChain, LiveKit, OpenAI, Claude, Gemini, PostgreSQL + pgvector, Redis, Celery, Docker.
+- Background: 5 years of backend and full-stack work (Laravel, WordPress, Shopify) for clients in the US, UK and EU.
 - Author and maintainer of open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
 - Every project ships with tests, CI, and written design decisions.
 - Based in Lahore, Pakistan and open to remote work.
