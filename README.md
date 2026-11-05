@@ -11,13 +11,12 @@
 
 ## About
 
-I am a Senior AI Engineer with 7+ years in production software. I build LLM systems that run in production: realtime voice agents on LiveKit and Twilio SIP, multi-agent pipelines, and RAG assistants with cited answers. I treat the model as one part of a reliable system: schema-validated tool calls, deterministic guardrails, provider failover, cost budgets, and eval suites in CI.
+I am a Senior AI Engineer with 7+ years in production software. I build LLM systems for production: RAG with cited answers, multi-provider LLM APIs, and workflows with human review of model output. I treat the model as one part of a reliable system, with schema-validated LLM output, cost tracking, and eval suites in CI.
 
-- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (failover, budgets, PII redaction, semantic cache), [evalkit](https://github.com/thealirazadev/evalkit) (prompt regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations).
-- Stack: Python, FastAPI, LangGraph, LangChain, LiveKit, OpenAI, Claude, Gemini, PostgreSQL + pgvector, Redis, Celery, Docker.
+- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider streaming, cost tracking; failover and budgets in progress), [evalkit](https://github.com/thealirazadev/evalkit) (prompt regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations).
+- Stack: Python, FastAPI, Claude, OpenAI, Gemini, PostgreSQL, ChromaDB, Redis, Docker.
 - Background: 5 years of backend and full-stack work (Laravel, WordPress, Shopify) for clients in the US, UK and EU.
 - Author and maintainer of open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
-- Every project ships with tests, CI, and written design decisions.
 - Based in Lahore, Pakistan and open to remote work.
 
 ## Tech Stack
@@ -47,13 +46,12 @@ Uptime and SSL monitor with queued checks, flap suppression, public status pages
 **[evalkit](https://github.com/thealirazadev/evalkit)** &nbsp;&#183;&nbsp; *Python*  
 CLI for prompt regression testing with deterministic assertions and LLM as judge scoring.
 
-Every one of these builds green in CI, ships with real tests, and documents its design decisions in
-the README.
+Each of these has real tests and passing CI.
 
 ## Get in touch
 
 I am open to senior full stack, AI engineering, and e-commerce roles, contract or full time.
 
 - Portfolio: https://ali-raza-ten.vercel.app
-- LinkedIn: https://linkedin.com/in/ali-razabhatti
+- LinkedIn: https://linkedin.com/in/thealirazadev
 - Email: thealirazadev@gmail.com
