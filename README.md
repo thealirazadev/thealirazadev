@@ -13,8 +13,8 @@
 
 I am a Senior AI Engineer with 7+ years in production software. I build LLM systems for production: RAG with cited answers, multi-provider LLM APIs, and workflows with human review of model output. I treat the model as one part of a reliable system, with schema-validated LLM output, cost tracking, and eval suites in CI.
 
-- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider failover, race-safe budgets, cost tracking), [evalkit](https://github.com/thealirazadev/evalkit) (prompt and agent regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations), [stakelens](https://github.com/thealirazadev/stakelens) (Claude tool-use assistant over indexed on-chain data).
-- Stack: Python, FastAPI, Claude, OpenAI, Gemini, PostgreSQL, ChromaDB, Redis, Docker.
+- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider failover, race-safe budgets, cost tracking), [mcp-store-tools](https://github.com/thealirazadev/mcp-store-tools) (MCP server for Shopify), [rag-eval-bench](https://github.com/thealirazadev/rag-eval-bench) (retrieval benchmarking), [agent-trace-viewer](https://github.com/thealirazadev/agent-trace-viewer) (agent trace reports), [evalkit](https://github.com/thealirazadev/evalkit) (prompt and agent regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations), [stakelens](https://github.com/thealirazadev/stakelens) (Claude tool-use assistant over indexed on-chain data).
+- Stack: Python, FastAPI, Claude, OpenAI, Gemini, MCP, PostgreSQL, ChromaDB, Redis, Docker.
 - Background: 5 years of backend and full-stack work (Laravel, WordPress, Shopify) for clients in the US, UK and EU.
 - Author and maintainer of open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
 - Based in Lahore, Pakistan and open to remote work.
@@ -32,6 +32,18 @@ never double-bills and per-key budgets that hold under concurrent traffic.
 **[stakelens](https://github.com/thealirazadev/stakelens)** &nbsp;&#183;&nbsp; *Python, FastAPI, Solidity*  
 Reorg-safe staking indexer with a Claude assistant that answers only through five read-only tools,
 so every figure it quotes comes from SQL, not the model.
+
+**[mcp-store-tools](https://github.com/thealirazadev/mcp-store-tools)** &nbsp;&#183;&nbsp; *Python, MCP*  
+MCP server that lets Claude answer from a Shopify store's live catalog and policies. Read-only by
+credential, with store text treated as untrusted input.
+
+**[rag-eval-bench](https://github.com/thealirazadev/rag-eval-bench)** &nbsp;&#183;&nbsp; *Python*  
+Measures retrieval before you tune prompts: chunking strategies and BM25, dense, and hybrid
+retrievers compared on recall@k, MRR, and nDCG.
+
+**[agent-trace-viewer](https://github.com/thealirazadev/agent-trace-viewer)** &nbsp;&#183;&nbsp; *Python*  
+Turns agent traces into a per-run summary and a self-contained HTML waterfall of every model and
+tool call, with latency, tokens, cost, and failures.
 
 **[evalkit](https://github.com/thealirazadev/evalkit)** &nbsp;&#183;&nbsp; *Python*  
 CLI for prompt and agent regression testing: deterministic assertions, tool-call assertions, and
