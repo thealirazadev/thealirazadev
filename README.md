@@ -25,13 +25,20 @@ I am a Senior AI Engineer with 7+ years in production software. I build LLM syst
 
 ## Featured Projects
 
-**[hook-relay](https://github.com/thealirazadev/hook-relay)** &nbsp;&#183;&nbsp; *Laravel*  
-Inbound webhook gateway with per-provider signature verification, at least once delivery, a dead
-letter queue, and replay.
+**[llm-gateway](https://github.com/thealirazadev/llm-gateway)** &nbsp;&#183;&nbsp; *Python, FastAPI*  
+OpenAI-compatible gateway in front of OpenAI, Anthropic, and Gemini, with priority failover that
+never double-bills and per-key budgets that hold under concurrent traffic.
+
+**[evalkit](https://github.com/thealirazadev/evalkit)** &nbsp;&#183;&nbsp; *Python*  
+CLI for prompt regression testing with deterministic assertions and LLM as judge scoring.
 
 **[ticket-triage](https://github.com/thealirazadev/ticket-triage)** &nbsp;&#183;&nbsp; *Python, FastAPI*  
 Triages support tickets with an LLM, with rule based routing, a labeled evaluation harness, and CI
 accuracy gating.
+
+**[hook-relay](https://github.com/thealirazadev/hook-relay)** &nbsp;&#183;&nbsp; *Laravel*  
+Inbound webhook gateway with per-provider signature verification, at least once delivery, a dead
+letter queue, and replay.
 
 **[bookline](https://github.com/thealirazadev/bookline)** &nbsp;&#183;&nbsp; *Next.js, TypeScript*  
 Appointment booking with timezone and DST correct slots, and database level double booking
@@ -39,12 +46,6 @@ prevention.
 
 **[pulse-analytics](https://github.com/thealirazadev/pulse-analytics)** &nbsp;&#183;&nbsp; *Next.js, TypeScript*  
 Privacy first, cookieless web analytics with rollup aggregation, goals, and a dashboard.
-
-**[laravel-uptime](https://github.com/thealirazadev/laravel-uptime)** &nbsp;&#183;&nbsp; *Laravel*  
-Uptime and SSL monitor with queued checks, flap suppression, public status pages, and alerting.
-
-**[evalkit](https://github.com/thealirazadev/evalkit)** &nbsp;&#183;&nbsp; *Python*  
-CLI for prompt regression testing with deterministic assertions and LLM as judge scoring.
 
 Each of these has real tests and passing CI.
 
