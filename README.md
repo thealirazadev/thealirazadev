@@ -13,7 +13,7 @@
 
 I am a Senior AI Engineer with 7+ years in production software. I build LLM systems for production: RAG with cited answers, multi-provider LLM APIs, and workflows with human review of model output. I treat the model as one part of a reliable system, with schema-validated LLM output, cost tracking, and eval suites in CI.
 
-- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider streaming, cost tracking; failover and budgets in progress), [evalkit](https://github.com/thealirazadev/evalkit) (prompt regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations).
+- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider failover, race-safe budgets, cost tracking), [evalkit](https://github.com/thealirazadev/evalkit) (prompt regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations).
 - Stack: Python, FastAPI, Claude, OpenAI, Gemini, PostgreSQL, ChromaDB, Redis, Docker.
 - Background: 5 years of backend and full-stack work (Laravel, WordPress, Shopify) for clients in the US, UK and EU.
 - Author and maintainer of open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
