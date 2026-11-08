@@ -13,7 +13,7 @@
 
 I am a Senior AI Engineer with 7+ years in production software. I build LLM systems for production: RAG with cited answers, multi-provider LLM APIs, and workflows with human review of model output. I treat the model as one part of a reliable system, with schema-validated LLM output, cost tracking, and eval suites in CI.
 
-- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider failover, race-safe budgets, cost tracking), [evalkit](https://github.com/thealirazadev/evalkit) (prompt regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations).
+- AI open source: [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider failover, race-safe budgets, cost tracking), [evalkit](https://github.com/thealirazadev/evalkit) (prompt and agent regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations), [stakelens](https://github.com/thealirazadev/stakelens) (Claude tool-use assistant over indexed on-chain data).
 - Stack: Python, FastAPI, Claude, OpenAI, Gemini, PostgreSQL, ChromaDB, Redis, Docker.
 - Background: 5 years of backend and full-stack work (Laravel, WordPress, Shopify) for clients in the US, UK and EU.
 - Author and maintainer of open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
@@ -29,8 +29,13 @@ I am a Senior AI Engineer with 7+ years in production software. I build LLM syst
 OpenAI-compatible gateway in front of OpenAI, Anthropic, and Gemini, with priority failover that
 never double-bills and per-key budgets that hold under concurrent traffic.
 
+**[stakelens](https://github.com/thealirazadev/stakelens)** &nbsp;&#183;&nbsp; *Python, FastAPI, Solidity*  
+Reorg-safe staking indexer with a Claude assistant that answers only through five read-only tools,
+so every figure it quotes comes from SQL, not the model.
+
 **[evalkit](https://github.com/thealirazadev/evalkit)** &nbsp;&#183;&nbsp; *Python*  
-CLI for prompt regression testing with deterministic assertions and LLM as judge scoring.
+CLI for prompt and agent regression testing: deterministic assertions, tool-call assertions, and
+LLM as judge scoring.
 
 **[ticket-triage](https://github.com/thealirazadev/ticket-triage)** &nbsp;&#183;&nbsp; *Python, FastAPI*  
 Triages support tickets with an LLM, with rule based routing, a labeled evaluation harness, and CI
