@@ -73,7 +73,7 @@ Each of these has real tests and passing CI.
 
 ## Get in touch
 
-I am open to senior full stack, AI engineering, and e-commerce roles, contract or full time.
+I am open to senior AI engineering roles (voice agents, multi-agent systems, RAG, and evals), remote, contract or full time.
 
 - Portfolio: https://ali-raza-ten.vercel.app
 - LinkedIn: https://linkedin.com/in/thealirazadev
