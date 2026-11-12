@@ -11,11 +11,11 @@
 
 ## About
 
-I am a Senior AI Engineer with 7+ years in production software. I build LLM systems for production: voice agents that answer real phone calls (LiveKit, Gemini Live, Twilio SIP), multi-agent pipelines, RAG with cited answers, multi-provider LLM APIs, and workflows with human review of model output. I treat the model as one part of a reliable system, with schema-validated LLM output, cost tracking, and eval suites in CI.
+I am a Senior AI Engineer with 6+ years in production software. I build LLM systems for production: voice agents that answer real phone calls (LiveKit, Gemini Live, Twilio SIP), multi-agent pipelines, RAG with cited answers, multi-provider LLM APIs, and workflows with human review of model output. I treat the model as one part of a reliable system, with schema-validated LLM output, cost tracking, and eval suites in CI.
 
 - AI open source: [shopwright](https://github.com/thealirazadev/shopwright) (Claude support agent for Shopify stores), [llm-gateway](https://github.com/thealirazadev/llm-gateway) (multi-provider failover, race-safe budgets, cost tracking), [mcp-store-tools](https://github.com/thealirazadev/mcp-store-tools) (MCP server for Shopify), [rag-eval-bench](https://github.com/thealirazadev/rag-eval-bench) (retrieval benchmarking), [agent-trace-viewer](https://github.com/thealirazadev/agent-trace-viewer) (agent trace reports), [evalkit](https://github.com/thealirazadev/evalkit) (prompt and agent regression testing), [ticket-triage](https://github.com/thealirazadev/ticket-triage) (LLM triage with an eval harness), [askdocs](https://github.com/thealirazadev/askdocs) (RAG with citations), [stakelens](https://github.com/thealirazadev/stakelens) (Claude tool-use assistant over indexed on-chain data).
 - Stack: Python, FastAPI, LangGraph, LiveKit Agents, Claude, OpenAI, Gemini, MCP, PostgreSQL, pgvector, ChromaDB, Redis, Docker.
-- Background: 5 years of backend and full-stack work (Laravel, WordPress, Shopify) for clients in the US, UK and EU.
+- Background: 4+ years of backend and full-stack work (Laravel, WordPress, Shopify) for clients in the US, UK and EU.
 - Author and maintainer of open source projects across AI, Laravel, WordPress, Shopify, and Next.js.
 - Based in Lahore, Pakistan and open to remote work.
 
