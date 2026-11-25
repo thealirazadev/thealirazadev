@@ -21,7 +21,7 @@ I am a Senior AI Engineer with 6+ years in production software. I build LLM syst
 
 ## Tech Stack
 
-<img src="stack.png" alt="Tech stack: Python, FastAPI, PHP, Laravel, OpenAI, TypeScript, JavaScript, React, Next.js, Tailwind, WordPress, WooCommerce, Shopify, PostgreSQL, MySQL, Redis, Docker" width="100%" />
+<img src="stack.png" alt="Tech stack. LLM and agents: Claude, OpenAI, Gemini, LangGraph, MCP, LiveKit Agents. RAG and evals: pgvector, ChromaDB, hybrid retrieval, LLM-as-judge, evals in CI. Backend and infra: Python, FastAPI, PostgreSQL, Redis, Docker, GitHub Actions. Also ships: TypeScript, Next.js, React, Laravel, Shopify, WordPress." width="100%" />
 
 ## Featured Projects
 
